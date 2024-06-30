@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 // import { Teams } from "@/constants";
 import Link from "next/link";
 import Image from "next/image";
-import { dhyey, teamImg } from "@/public/assets";
+import { SVNITLOGO, teamImg } from "@/public/assets";
 import { getCommittee, getStudentHeads } from "@/sanity/utilsSanity";
 
 const page = async () => {
@@ -46,11 +46,12 @@ const page = async () => {
               </Link>
             </div>
             <Image
-              src={StudentHead.ImageUrl}
+              src={StudentHead.ImageUrl ? StudentHead.ImageUrl : SVNITLOGO}
+              unoptimized
               alt="Img"
               height={100}
               width={100}
-              className="float- h-24 w-24 rounded-lg"
+              className="float aspect-[1/1] rounded-lg"
             />
           </div>
         ))}
@@ -80,11 +81,12 @@ const page = async () => {
               </Link>
             </div>
             <Image
-              src={committee.ImageUrl}
+              src={committee.ImageUrl ? committee.ImageUrl : SVNITLOGO}
+              unoptimized
               alt="Img"
               height={100}
               width={100}
-              className="float- h-24 w-24 rounded-lg"
+              className=" rounded-lg  aspect-[1/1] object-fill "
             />
           </div>
         ))}
