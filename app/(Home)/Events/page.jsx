@@ -2,6 +2,7 @@ import EventCard from "@/components/EventCard";
 import EventRegistration from "@/components/EventRegistration";
 // import { events } from "@/constants";
 import { getEvent } from "@/sanity/utilsSanity";
+
 export async function Event() {
   const events = await getEvent();
 
@@ -11,7 +12,9 @@ export async function Event() {
         Events
       </h1>
 
-      <p className="mt-1 text-justify text-text-100 text-[14px] md:text-[18px]   ">
+      <p
+        data-aos="fade-right"
+        className="mt-1 text-justify text-text-100 text-[14px] md:text-[18px]   ">
         At ChES, we are proud to curate a diverse calendar of events that ignite
         the enthusiasm for chemical engineering and nurture an innovative
         spirit. Annually, our society organizes a variety of engaging

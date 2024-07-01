@@ -3,9 +3,12 @@ import React from "react";
 import { IoMdLink } from "react-icons/io";
 // import { Achievements } from "@/constants";
 import { getAchievement } from "@/sanity/utilsSanity";
-const AchievementCard = ({ description, ImageUrl }) => {
+const AchievementCard = ({ description, ImageUrl, index }) => {
   return (
-    <div className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-6 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%]">
+    <div
+      data-aos-delay={index * 50}
+      data-aos="fade-left"
+      className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-6 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%]">
       <Image
         width={500}
         height={500}
@@ -30,7 +33,9 @@ const Achievement = async () => {
         </h1>
       </div>
 
-      <p className="mt-1 text-justify text-text-100 text-[14px] md:text-[18px]   ">
+      <p
+        data-aos="fade-right"
+        className="mt-1 text-justify text-text-100 text-[14px] md:text-[18px]   ">
         In our relentless pursuit of excellence, ChES has achieved significant
         milestones along its journey. These accomplishments are a testament to
         the dedication of our determined team members, the unwavering support

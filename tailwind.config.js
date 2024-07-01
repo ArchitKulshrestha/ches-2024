@@ -88,8 +88,8 @@ module.exports = withMT({
         "5xl": "4.210rem",
       },
       fontFamily: {
-        heading: "Poppins",
-        body: "Commissioner",
+        heading: "var(--font-poppins)",
+        body: "var(--font-commissioner)",
       },
       fontWeight: {
         normal: "400",

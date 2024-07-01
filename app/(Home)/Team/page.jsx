@@ -26,8 +26,10 @@ const page = async () => {
         Student Heads
       </h1>
       <div className=" my-8 grid grid-cols-1 lg:grid-cols-3 gap-5">
-        {studentHeads.map((StudentHead) => (
+        {studentHeads.map((StudentHead, index) => (
           <div
+            data-aos="fade-left"
+            data-aos-delay={index * 50}
             key={StudentHead.position}
             className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl  hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
             <div>
@@ -61,8 +63,10 @@ const page = async () => {
         Committee Heads
       </h1>
       <div className="my-8 grid grid-cols-1 lg:grid-cols-3 gap-5">
-        {committees.map((committee) => (
+        {committees.map((committee, index) => (
           <div
+            data-aos="fade-right"
+            data-aos-delay={index * 50}
             key={committee.head}
             className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
             <div>

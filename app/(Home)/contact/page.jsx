@@ -39,7 +39,7 @@ function Contact() {
   return (
     <>
       <section className="  pt-16 min-h-screen w-full px-4 md:px-28 ">
-        <div className="max-w-3xl mx-auto">
+        <div data-aos="fade-left" className="max-w-3xl mx-auto">
           <div className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter mt-6 backdrop-blur-lg p-6 rounded-lg shadow-lg">
             <h1 className="text-3xl md:text-4xl font-bold text-center mb-4 text-secondary-200 font-heading mt-4">
               Contact Us
