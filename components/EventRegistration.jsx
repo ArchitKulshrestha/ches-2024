@@ -100,6 +100,7 @@ function EventRegistration() {
           </div>
           <div>
             <button
+              aria-label="send"
               type="submit"
               className="w-full py-3 bg-primary-600 hover:bg-primary-700 text-white font-bold rounded-md transition duration-300">
               Send

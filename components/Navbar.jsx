@@ -37,6 +37,7 @@ const Navbar = () => {
         ))}
       </ul>
       <button
+        aria-label="ham-menu"
         className="flex md:hidden text-primary-400 text-2xl cursor-pointer"
         onClick={() => setShowMenu(!showMenu)}>
         {showMenu ? <IoMdClose /> : <HiMenuAlt1 />}

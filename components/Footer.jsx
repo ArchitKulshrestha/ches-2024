@@ -16,9 +16,9 @@ function Footer() {
     <footer className="px-4 lg:px-28 py-4 mx-auto   ">
       <div className="flex-col md:flex-row gap-8 flex justify-center">
         <div className="w-full md:w-1/2 flex flex-col">
-          <h1 className="text-2xl text-text-300 font-heading font-bold ">
+          <h2 className="text-2xl text-text-300 font-heading font-bold ">
             Email Us
-          </h1>
+          </h2>
           <Link
             href="mailto:ches@svnit.ac.in"
             aria-label="mail"

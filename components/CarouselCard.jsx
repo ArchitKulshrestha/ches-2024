@@ -6,9 +6,9 @@ const CarouselCard = ({ ImageUrl, description, title }) => {
     <div className="md:px-8">
       <div className="flex flex-col md:flex-row items-center justify-center gap-y-8">
         <div className="w-full md:w-1/2">
-          <h2 className="text-2xl md:text-3xl font-bold font-heading text-text-100">
+          <h3 className="text-2xl md:text-3xl font-bold font-heading text-text-100">
             {title}
-          </h2>
+          </h3>
         </div>
         <div className="w-full md:w-1/2 flex justify-center">
           <Image

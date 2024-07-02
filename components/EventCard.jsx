@@ -65,6 +65,7 @@ export function EventCard({
         </div>
         <DialogFooter>
           <Button
+            aria-label="close"
             variant="text"
             color="red"
             onClick={() => handleOpen(null)}

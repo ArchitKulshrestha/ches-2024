@@ -49,7 +49,6 @@ const page = async () => {
             </div>
             <Image
               src={StudentHead.ImageUrl ? StudentHead.ImageUrl : SVNITLOGO}
-              unoptimized
               alt="Img"
               height={100}
               width={100}
@@ -86,7 +85,6 @@ const page = async () => {
             </div>
             <Image
               src={committee.ImageUrl ? committee.ImageUrl : SVNITLOGO}
-              unoptimized
               alt="Img"
               height={100}
               width={100}

@@ -25,6 +25,7 @@ const AboutCarousel = ({ about }) => {
       )}
       prevArrow={({ handlePrev }) => (
         <IconButton
+          aria-label="left"
           variant="text"
           color="white"
           size="lg"
@@ -47,6 +48,7 @@ const AboutCarousel = ({ about }) => {
       )}
       nextArrow={({ handleNext }) => (
         <IconButton
+          aria-label="right"
           variant="text"
           color="white"
           size="lg"
