@@ -96,3 +96,14 @@ export async function getGallery() {
     cache: "no-cache",
   });
 }
+
+const NotificationsQuery = groq`
+*[_type == "notifications"] {
+  description
+}`;
+
+export async function getNotifications() {
+  return client.fetch(NotificationsQuery, {
+    cache: "no-store",
+  });
+}

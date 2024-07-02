@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
+import Notifications from "@/components/Notifications";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <About />
       <Gallery />
+      <Notifications />
     </section>
   );
 }

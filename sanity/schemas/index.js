@@ -4,6 +4,15 @@ import Achievement from "./Achievement";
 import Committee from "./Committee";
 import studentHeads from "./StudentHeads";
 import Gallery from "./Gallery";
-const schemas = [Events, About, Achievement, Committee, studentHeads, Gallery];
+import Notifications from "./Notifications";
+const schemas = [
+  Notifications,
+  Events,
+  About,
+  Achievement,
+  Committee,
+  studentHeads,
+  Gallery,
+];
 
 export default schemas;

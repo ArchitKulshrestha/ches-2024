@@ -13,8 +13,8 @@ async function Gallery() {
       <div className="grid grid-cols-1 gap-4 md:gap-6 sm:grid-cols-3 mt-8">
         {Images.map(({ ImageUrl }, index) => (
           <div
-            data-aos="fade-right"
-            data-aos-delay={index * 100}
+            data-aos="fade-left"
+            data-aos-delay={index * 100 + 100}
             key={index}
             className="hover:scale-105 ease-in-out duration-300 relative overflow-hidden rounded-lg shadow-lg  cursor-pointer hover:shadow-lg hover:shadow-text-500/60">
             <Image
