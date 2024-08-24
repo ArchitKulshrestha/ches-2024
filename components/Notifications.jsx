@@ -11,7 +11,7 @@ export const Notifications = async () => {
         data-aos="fade-right">
         Announcements
       </h2>
-      <div className="w-full" data-aos="fade-down">
+      <div className="w-full">
         <Marquee>
           {notifications.map((notification, index) => (
             <div key={index} className="flex items-center justify-center">
@@ -20,7 +20,7 @@ export const Notifications = async () => {
                 width={500}
                 height={50}
                 alt="notification-icon"
-                className="mr-4 rounded-md sm:w-[35rem] w-[20rem] "
+                className="mr-4 rounded-md sm:w-[30rem] w-[20rem] "
               />
             </div>
           ))}

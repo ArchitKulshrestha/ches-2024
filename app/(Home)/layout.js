@@ -4,16 +4,51 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AosWrapper from "@/components/AosWrapper";
 import { Poppins, Commissioner } from "next/font/google";
+import { ChesLogo } from "@/public/assets";
 
 export const metadata = {
-  title: "Chemical Engineering Society NIT Surat",
+  title: "Chemical Engineering Society | SVNIT Surat | ChES",
   description:
-    "Connect with SVNIT Surat's Chemical Engineering Society (ChES). Discover upcoming events, innovative research projects, and valuable insights into chemical engineering.",
-
+    "Discover the Chemical Engineering Society at SVNIT Surat (ChES). Stay updated on events, cutting-edge research, and networking opportunities for chemical engineering students.",
+  openGraph: {
+    type: "website",
+    url: "https://ches.vercel.app",
+    title: "Chemical Engineering Society | SVNIT Surat | ChES",
+    description:
+      "Explore upcoming events, innovative research projects, and valuable resources provided by the Chemical Engineering Society (ChES) at SVNIT Surat.",
+    images: [
+      {
+        url: ChesLogo,
+        width: 800,
+        height: 600,
+        alt: "Chemical Engineering Society SVNIT Surat Logo",
+      },
+    ],
+  },
+  keywords: [
+    "ChES SVNIT Surat",
+    "Chemical Engineering Society",
+    "SVNIT Surat",
+    "Chemical Engineering",
+    "AIChE",
+    "NIT Surat",
+    "Student Research Conference",
+    "Engineering Events",
+    "NIT",
+    "National Institute of Technology",
+    "Chemical Research",
+    "Student Society",
+    "ChES",
+    "SVNIT Research",
+  ],
   icons: {
     icon: "/favicon.ico",
   },
+  alternates: {
+    canonical: "https://ches.vercel.app",
+  },
 };
+
 export const revalidate = 180;
 export const dynamic = "force-dynamic";
 const poppins = Poppins({

@@ -29,7 +29,7 @@ export default function Home() {
               height={550}
               width={550}
               alt="HeroImage"
-              priority
+              priority={true}
             />
           </div>
         </div>
