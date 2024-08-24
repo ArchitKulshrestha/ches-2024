@@ -17,7 +17,7 @@ function Footer() {
       <div className="flex-col md:flex-row gap-8 flex justify-center">
         <div className="w-full md:w-1/2 flex flex-col">
           <h2 className="text-2xl text-text-300 font-heading font-bold ">
-            Email Us
+            Contact Us
           </h2>
           <Link
             href="mailto:ches@svnit.ac.in"
@@ -31,7 +31,22 @@ function Footer() {
             className="text-text-100 hover:text-accent-400 mt-2">
             ches.svnit@gmail.com
           </Link>
+          <div className="w-full md:w-1/2 flex flex-col mt-4">
+            <Link
+              href="tel:+919909635383"
+              aria-label="contact"
+              className="text-text-100 hover:text-accent-400 mt-2">
+              President:&nbsp; 99096 35383
+            </Link>
+            <Link
+              href="tel:+917067528885"
+              aria-label="contact"
+              className="text-text-100 hover:text-accent-400 mt-2">
+              Public Relations: &nbsp;70675 28885
+            </Link>
+          </div>
         </div>
+
         <div className="w-full md:w-1/2 flex flex-col">
           <Image
             src={ChesNoText}

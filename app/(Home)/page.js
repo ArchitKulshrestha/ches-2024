@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <section>
       <Hero />
+      <Notifications />
       <About />
       <Gallery />
-      <Notifications />
     </section>
   );
 }

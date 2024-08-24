@@ -8,6 +8,19 @@ const Notifications = {
       title: "Description",
       type: "string",
     },
+    {
+      name: "image",
+      title: "image",
+      type: "image",
+      options: { hotspot: true },
+      fields: [
+        {
+          name: "alt",
+          title: "Alt",
+          type: "string",
+        },
+      ],
+    },
   ],
 };
 

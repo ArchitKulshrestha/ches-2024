@@ -20,7 +20,8 @@ async function Gallery() {
             <Image
               height={200}
               width={200}
-              className="hover:scale-110 ease-in-out duration-300 w-full aspect-[3/2] max-w-full rounded-lg object-cover object-center  hover:grayscale-0 grayscale"
+              unoptimized={true}
+              className="hover:scale-110 ease-in-out duration-300 w-full aspect-[3/2] max-w-full rounded-lg object-cover object-center "
               src={ImageUrl}
               alt="gallery-photo"
             />

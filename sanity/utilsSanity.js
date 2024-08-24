@@ -99,7 +99,8 @@ export async function getGallery() {
 
 const NotificationsQuery = groq`
 *[_type == "notifications"] {
-  description
+  description,
+   "ImageUrl": image.asset->url, 
 }`;
 
 export async function getNotifications() {

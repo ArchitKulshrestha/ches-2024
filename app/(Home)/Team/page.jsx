@@ -93,7 +93,7 @@ const page = async () => {
           </div>
         ))}
       </div>
-      <div className="h-screen sm:h-[50vh] w-full mt-12 bg-contain bg-center bg-no-repeat bg-aluminiMobile sm:bg-alumini"></div>
+      {/* <div className="h-screen sm:h-[50vh] w-full mt-12 bg-contain bg-center bg-no-repeat bg-aluminiMobile sm:bg-alumini"></div> */}
     </section>
   );
 };
