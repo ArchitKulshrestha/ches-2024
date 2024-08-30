@@ -7,17 +7,21 @@ import Link from "next/link";
 // import { motion } from "framer-motion";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
+import { ChesLogo, CHESweb } from "@/public/assets";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [active, setActive] = useState("Home");
 
   return (
-    <nav className="fixed  px-4 lg:px-28 z-50 backdrop-blur-[8px]  bg-secondary-800/50 w-full h-[70px] flex justify-between items-center shadow-md">
-      <Link href={"/"} className="text-accent-500 text-xl font-bold uppercase ">
-        <p className="hover:scale-105 transition-all duration-[300ms] font-heading">
-          ChES-SVNIT
-        </p>
+    <nav className="fixed  px-4 lg:px-28 z-50 backdrop-blur-[2px]  bg-secondary-800/50 w-full h-[75px] flex justify-between items-center shadow-md">
+      <Link href={"/"} className="text-accent-500  ">
+        <Image
+          priority
+          src={ChesLogo}
+          className="hover:scale-105 transition-all duration-[300ms] ease-in-out  w-[8rem] py-2 "
+          alt="CHES"
+        />
       </Link>
       <ul className="hidden md:flex h-full flex-row gap-x-6 items-center">
         {NavLinks.map((link) => (

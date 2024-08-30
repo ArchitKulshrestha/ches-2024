@@ -6,7 +6,7 @@ import { getAchievement } from "@/sanity/utilsSanity";
 const AchievementCard = ({ description, ImageUrl, index }) => {
   return (
     <div
-      data-aos-delay={index * 50}
+      data-aos-delay={index * 10}
       data-aos="fade-left"
       className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-6 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%]">
       <Image

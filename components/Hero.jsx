@@ -1,36 +1,34 @@
 import Image from "next/image";
 import { Hero } from "../public/assets/index.js";
 import Link from "next/link";
-import { heroDoodle } from "../public/assets/index.js";
 
 export default function Home() {
   return (
     <section
       id="hero"
-      className="pt-[75px] min-h-screen w-full px-4 md:px-28 bg-heroBg-mobile2 sm:bg-heroBg bg-cover bg-no-repeat bg-center">
-      <div className="flex md:flex-row   flex-col gap-x-20 gap-y-16  mt-4 md:mt-16">
-        <div data-aos="fade-right" className="md:w-1/2 w-full">
+      className="relative pt-[75px] min-h-screen w-full px-4 md:px-28 flex justify-center items-center overflow-hidden">
+      <video
+        className="absolute inset-0 min-h-full w-full -z-10 object-cover blur-[4px] saturate-[1.2] contrast-[1.2]"
+        poster="/assets/bgvidCutcomp2.gif"
+        autoPlay
+        muted
+        playsInline
+        loop>
+        <source src="/assets/bgvidcut.mp4" type="video/mp4" playsInline muted />
+        Your browser does not support the video tag.
+      </video>
+
+      <div className="flex items-center justify-center py-8">
+        <div className="text-center sm:w-[60%] w-full mt-[-50px]">
           <div>
-            <h1 className="md:text-6xl text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-tr  from-indigo-700 via-30% to-text-400 to-70% py-2 font-heading">
+            <h1 className="md:text-7xl text-4xl font-bold bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-lime-600 via-sky-100 to-cyan-600 bg-clip-text text-transparent py-2 font-heading animate-gradient-slow">
               Chemical Engineering Society
             </h1>
-            <p className="md:text-3xl text-xl font-body text-text-200 mt-1">
+
+            <p className="md:text-4xl text-2xl font-body font-light text-gray-100 mt-4 opacity-90 animate-fade-in">
               Fuel your passion for Chemical Engineering – where curiosity
               sparks progress
             </p>
-          </div>
-        </div>
-
-        <div className="md:w-1/2 w-full ">
-          <div data-aos="fade-left" className="relative mt-4 ">
-            <Image
-              className="drop-shadow-md mb-8 mt-6"
-              src={heroDoodle}
-              height={550}
-              width={550}
-              alt="HeroImage"
-              priority={true}
-            />
           </div>
         </div>
       </div>

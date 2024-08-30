@@ -29,11 +29,12 @@ export async function getEvent() {
 }
 
 const AboutQuery = groq`
-*[_type == "about"]{
+*[_type == "about"] | order(_createdAt asc){
   title,
   description,
   "ImageUrl": image.asset->url, 
-}
+} 
+
 `;
 
 export async function getAbout() {
@@ -57,13 +58,13 @@ export async function getAchievement() {
 }
 
 const CommitteeQuery = groq`
-*[_type == "committee"]{
+*[_type == "committee"] | order(committee asc) {
   head,
-   committee,
-   "ImageUrl": image.asset->url, 
-    linkedin
-    
- }
+  committee,
+  "ImageUrl": image.asset->url, 
+  linkedin
+}
+
 `;
 
 export async function getCommittee() {

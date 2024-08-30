@@ -3,11 +3,15 @@ import React from "react";
 import {
   Carousel,
   IconButton,
-  Button,
   Dialog,
   DialogHeader,
   DialogBody,
   DialogFooter,
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
+  Button,
 } from "@material-tailwind/react";
 
 export {
@@ -18,4 +22,8 @@ export {
   DialogHeader,
   DialogBody,
   DialogFooter,
+  Menu,
+  MenuHandler,
+  MenuList,
+  MenuItem,
 };

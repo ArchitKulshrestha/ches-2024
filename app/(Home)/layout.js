@@ -16,14 +16,6 @@ export const metadata = {
     title: "Chemical Engineering Society | SVNIT Surat | ChES",
     description:
       "Explore upcoming events, innovative research projects, and valuable resources provided by the Chemical Engineering Society (ChES) at SVNIT Surat.",
-    images: [
-      {
-        url: ChesLogo,
-        width: 800,
-        height: 600,
-        alt: "Chemical Engineering Society SVNIT Surat Logo",
-      },
-    ],
   },
   keywords: [
     "ChES SVNIT Surat",
@@ -45,7 +37,7 @@ export const metadata = {
     icon: "/favicon.ico",
   },
   alternates: {
-    canonical: "https://ches.vercel.app",
+    canonical: "https://ches-2024.vercel.app/",
   },
 };
 

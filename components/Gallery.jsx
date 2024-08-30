@@ -14,9 +14,9 @@ async function Gallery() {
         {Images.map(({ ImageUrl }, index) => (
           <div
             data-aos="fade-left"
-            data-aos-delay={index * 100 + 50}
+            data-aos-delay={index * 100 + 10}
             key={index}
-            className="hover:scale-105 ease-in-out duration-300 relative overflow-hidden rounded-lg shadow-lg  cursor-pointer hover:shadow-lg hover:shadow-text-500/60">
+            className="hover:scale-110 ease-in-out duration-300 relative overflow-hidden rounded-lg   cursor-pointer ">
             <Image
               height={200}
               width={200}

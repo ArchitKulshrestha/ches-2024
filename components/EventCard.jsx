@@ -25,7 +25,7 @@ export function EventCard({
   return (
     <>
       <div
-        data-aos-delay={index * 50}
+        data-aos-delay={index * 10}
         data-aos="fade-right"
         onClick={handleOpen}
         className="bg-gradient-to-tl from-[#461254] to-[#26062d] bg-opacity-30 backdrop-filter rounded-xl cursor-pointer p-6 sm:px-6 hover:shadow-lg hover:shadow-text-500/60 w-full">
@@ -72,12 +72,12 @@ export function EventCard({
             className="mr-2">
             <span>Close</span>
           </Button>
-          <Link
+          {/* <Link
             href={link}
             target="_blank"
             className=" bg-accent-500 hover:bg-accent-600  text-white  p-2 rounded-md">
             Know More
-          </Link>
+          </Link> */}
         </DialogFooter>
       </Dialog>
     </>

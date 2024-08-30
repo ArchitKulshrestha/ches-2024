@@ -16,12 +16,12 @@ const CarouselCard = ({ ImageUrl, description, title }) => {
             alt={title}
             width={150}
             height={150}
-            className="h-20 sm:h-40 object-contain aspect-[3/2] rounded-xl"
+            className="h-20 sm:h-32 object-contain aspect-[3/2] rounded-xl"
           />
         </div>
       </div>
       <div>
-        <p className="text-text-100 text-base md:text-xl mb-16 ">
+        <p className="text-text-100 text-base md:text-xl mb-16 mt-4">
           {description}
         </p>
       </div>

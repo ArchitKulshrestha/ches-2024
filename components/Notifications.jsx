@@ -6,13 +6,11 @@ export const Notifications = async () => {
 
   return (
     <section className="mb-4 mt-12 w-full px-4 md:px-28">
-      <h2
-        className="md:text-4xl text-3xl font-bold font-heading text-secondary-200 my-8 decoration-4 decoration-accent-500 underline underline-offset-8"
-        data-aos="fade-right">
+      <h2 className="md:text-4xl text-3xl font-bold font-heading text-secondary-200 my-8 decoration-4 decoration-accent-500 underline underline-offset-8">
         Announcements
       </h2>
       <div className="w-full">
-        <Marquee>
+        <Marquee speed={50}>
           {notifications.map((notification, index) => (
             <div key={index} className="flex items-center justify-center">
               <Image
@@ -20,7 +18,7 @@ export const Notifications = async () => {
                 width={500}
                 height={50}
                 alt="notification-icon"
-                className="mr-4 rounded-md sm:w-[30rem] w-[20rem] "
+                className="mr-4 rounded-md sm:w-[35rem] w-[25rem] "
               />
             </div>
           ))}

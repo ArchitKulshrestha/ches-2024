@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import { SVNITLOGO, teamImg } from "@/public/assets";
+import Dropdown from "@/components/Dropdown";
 import { getCommittee, getStudentHeads } from "@/sanity/utilsSanity";
 
 const page = async () => {
@@ -11,14 +12,18 @@ const page = async () => {
   const studentHeads = await getStudentHeads();
   return (
     <section className="px-4 md:px-28 pt-[75px] w-full min-h-screen mb-6">
-      <h1 className="md:text-4xl text-3xl font-bold font-heading text-secondary-200 mt-4 decoration-4  decoration-accent-500 underline underline-offset-8  ">
-        Our Team
-      </h1>
+      <div className="flex justify-between items-center mt-8">
+        <h1 className="md:text-4xl text-3xl font-bold font-heading text-secondary-200 decoration-4 decoration-accent-500 underline underline-offset-8">
+          Our Team
+        </h1>
+        <Dropdown />
+      </div>
+
       <div className="w-full mt-8 ">
         <Image
           src={teamImg}
           alt="team"
-          className="h-[60dvh] object-center rounded-md w-full object-cover"
+          className="h-[20dvh] md:h-[55dvh] object-center rounded-md w-full  object-cover"
         />
       </div>
 
@@ -93,7 +98,16 @@ const page = async () => {
           </div>
         ))}
       </div>
-      {/* <div className="h-screen sm:h-[50vh] w-full mt-12 bg-contain bg-center bg-no-repeat bg-aluminiMobile sm:bg-alumini"></div> */}
+      <Link
+        href={
+          "https://drive.google.com/file/d/1gDyxfguBfHto_UCzkxHc2SLVenRvoTA7/view?usp=sharing"
+        }
+        target="_blank"
+        rel="noreferrer"
+        aria-label="core committee"
+        className="bg-accent-600 text-white py-2 px-4 rounded-md shadow-md hover:bg-secondary-500 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:ring-opacity-50 transition-colors duration-200">
+        Full Committee List
+      </Link>
     </section>
   );
 };

@@ -36,13 +36,13 @@ function Footer() {
               href="tel:+919909635383"
               aria-label="contact"
               className="text-text-100 hover:text-accent-400 mt-2">
-              President:&nbsp; 99096 35383
+              Dev Sharma:&nbsp; 99096 35383
             </Link>
             <Link
               href="tel:+917067528885"
               aria-label="contact"
               className="text-text-100 hover:text-accent-400 mt-2">
-              Public Relations: &nbsp;70675 28885
+              Deval Mehta: &nbsp;70675 28885
             </Link>
           </div>
         </div>
