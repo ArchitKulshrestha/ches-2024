@@ -21,7 +21,7 @@ const CarouselCard = ({ ImageUrl, description, title }) => {
         </div>
       </div>
       <div>
-        <p className="text-text-100 text-base md:text-xl mb-16 mt-4">
+        <p className="text-text-100 text-base md:text-xl mb-20 mt-4">
           {description}
         </p>
       </div>

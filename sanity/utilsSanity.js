@@ -102,6 +102,7 @@ const NotificationsQuery = groq`
 *[_type == "notifications"] {
   description,
    "ImageUrl": image.asset->url, 
+   link
 }`;
 
 export async function getNotifications() {

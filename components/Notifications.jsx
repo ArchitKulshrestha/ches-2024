@@ -1,5 +1,6 @@
 import { getNotifications } from "@/sanity/utilsSanity";
 import Image from "next/image";
+import Link from "next/link";
 import Marquee from "react-fast-marquee";
 export const Notifications = async () => {
   const notifications = await getNotifications();
@@ -13,13 +14,15 @@ export const Notifications = async () => {
         <Marquee speed={50}>
           {notifications.map((notification, index) => (
             <div key={index} className="flex items-center justify-center">
-              <Image
-                src={notification.ImageUrl}
-                width={500}
-                height={50}
-                alt="notification-icon"
-                className="mr-4 rounded-md sm:w-[35rem] w-[25rem] "
-              />
+              <Link target="_blank" href={notification.link}>
+                <Image
+                  src={notification.ImageUrl}
+                  width={500}
+                  height={50}
+                  alt="notification-icon"
+                  className="mr-4 rounded-md sm:w-[35rem] w-[25rem] "
+                />
+              </Link>
             </div>
           ))}
         </Marquee>

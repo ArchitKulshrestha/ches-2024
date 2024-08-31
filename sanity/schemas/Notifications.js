@@ -21,6 +21,11 @@ const Notifications = {
         },
       ],
     },
+    {
+      name: "link",
+      title: "Link",
+      type: "string",
+    },
   ],
 };
 
