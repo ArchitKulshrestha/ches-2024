@@ -5,11 +5,16 @@ import Link from "next/link";
 import Image from "next/image";
 import { SVNITLOGO, teamImg } from "@/public/assets";
 import Dropdown from "@/components/Dropdown";
-import { getCommittee, getStudentHeads } from "@/sanity/utilsSanity";
+import {
+  getCommittee,
+  getStudentHeads,
+  getFaculty,
+} from "@/sanity/utilsSanity";
 
 const page = async () => {
   const committees = await getCommittee();
   const studentHeads = await getStudentHeads();
+  const faculty = await getFaculty();
   return (
     <section className="px-4 md:px-28 pt-[75px] w-full min-h-screen mb-6">
       <div className="flex justify-between items-center mt-8">
@@ -26,6 +31,46 @@ const page = async () => {
           className="h-[20dvh] md:h-[55dvh] object-center rounded-md w-full  object-cover"
         />
       </div>
+      {/* Faculty */}
+      <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-10 decoration-4  decoration-accent-500 underline underline-offset-8  ">
+        Faculty Advisors
+      </h1>
+      <div className="my-8 grid grid-cols-1 lg:grid-cols-4 gap-5">
+        {faculty.map((faculty, index) => (
+          <div
+            data-aos="fade-up"
+            data-aos-delay={index * 50}
+            key={faculty.position}
+            className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter backdrop-blur-lg shadow-lg p-4 rounded-xl hover:shadow-lg hover:shadow-text-500/60 sm:w-[100%] flex flex-col items-center gap-4">
+            <Image
+              src={faculty.ImageUrl ? faculty.ImageUrl : SVNITLOGO}
+              alt="Img"
+              height={100}
+              width={100}
+              className="aspect-[1/1] rounded-lg"
+            />
+            <div className="text-center">
+              <div className="text-base sm:text-xl font-bold font-heading text-text-200">
+                {faculty.position}
+              </div>
+              <div className="flex items-center justify-between  mt-2">
+                <div className="text-[.9rem] text-accent-300 font-semibold">
+                  {faculty.name}
+                </div>
+                <Link
+                  href={`${faculty.linkedin}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="linkedIn">
+                  <FaLinkedin className="text-xl text-text-200 hover:text-accent-400" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Student Heads */}
 
       <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-10 decoration-4  decoration-accent-500 underline underline-offset-8  ">
         Student Heads
@@ -62,6 +107,7 @@ const page = async () => {
           </div>
         ))}
       </div>
+      {/* Committee Heads */}
 
       <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-4 decoration-4  decoration-accent-500 underline underline-offset-8  ">
         Committee Heads

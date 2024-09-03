@@ -13,8 +13,8 @@ function Contact() {
     setLoading(true);
     emailjs
       .send(
-        "service_6p2qorf",
-        "template_xpmjy7j",
+        "service_ipyj85c",
+        "template_pzaln2s",
         {
           from_name: data.name,
           to_name: "ChES-SVNIT",
@@ -22,7 +22,7 @@ function Contact() {
           to_email: "archit499kul@gmail.com",
           message: data.message,
         },
-        "hfiF5fVej3ITkNuKZ"
+        "s9ONT6lFbL_3bS2Vl"
       )
       .then(() => {
         alert("Message sent successfully");

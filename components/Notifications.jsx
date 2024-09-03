@@ -11,7 +11,7 @@ export const Notifications = async () => {
         Announcements
       </h2>
       <div className="w-full">
-        <Marquee speed={50}>
+        <Marquee speed={70}>
           {notifications.map((notification, index) => (
             <div key={index} className="flex items-center justify-center">
               <Link target="_blank" href={notification.link}>

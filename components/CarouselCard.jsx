@@ -10,7 +10,7 @@ const CarouselCard = ({ ImageUrl, description, title }) => {
             {title}
           </h3>
         </div>
-        <div className="w-full md:w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center sm:justify-end">
           <Image
             src={ImageUrl}
             alt={title}

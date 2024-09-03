@@ -12,7 +12,7 @@ const client = createClient({
 });
 
 const EventQuery = groq`
-*[_type == "events"]{
+*[_type == "events"] | order(title asc) {
   title,
   description,
   link,
@@ -44,10 +44,9 @@ export async function getAbout() {
 }
 
 const AchievementQuery = groq`
-*[_type == "achievement"]{
- 
+*[_type == "achievement"] | order(updatedAt desc) {
   description,
-  "ImageUrl": image.asset->url, 
+  "ImageUrl": image.asset->url,
 }
 `;
 
@@ -108,5 +107,19 @@ const NotificationsQuery = groq`
 export async function getNotifications() {
   return client.fetch(NotificationsQuery, {
     cache: "no-store",
+  });
+}
+const FacultyQuery = groq`
+*[_type == "faculty"]{
+  position,
+   name,
+   "ImageUrl": image.asset->url, 
+    linkedin
+    
+ }
+`;
+export async function getFaculty() {
+  return client.fetch(FacultyQuery, {
+    cache: "no-cache",
   });
 }

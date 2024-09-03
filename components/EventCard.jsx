@@ -7,7 +7,7 @@ import {
   DialogHeader,
 } from "@/components/Provider";
 import { useState } from "react";
-import { events } from "@/constants";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -72,12 +72,12 @@ export function EventCard({
             className="mr-2">
             <span>Close</span>
           </Button>
-          {/* <Link
+          <Link
             href={link}
             target="_blank"
-            className=" bg-accent-500 hover:bg-accent-600  text-white  p-2 rounded-md">
+            className=" bg-accent-600 hover:bg-accent-500  text-white p-2 rounded-md">
             Know More
-          </Link> */}
+          </Link>
         </DialogFooter>
       </Dialog>
     </>

@@ -5,6 +5,7 @@ import Committee from "./Committee";
 import studentHeads from "./StudentHeads";
 import Gallery from "./Gallery";
 import Notifications from "./Notifications";
+import Faculty from "./Faculty";
 const schemas = [
   Notifications,
   Events,
@@ -13,6 +14,7 @@ const schemas = [
   Committee,
   studentHeads,
   Gallery,
+  Faculty,
 ];
 
 export default schemas;
