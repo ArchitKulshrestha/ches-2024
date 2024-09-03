@@ -1,5 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import { AluMillennium, Anerobes } from "@/constants";
+import Image from "next/image";
+import { alluTeam, aneTeam, chemTeam } from "@/public/assets";
 const objectives = [
   "Demonstrate the ability to control a chemical reaction.",
   "Innovate with chemical processes to power a small-scale vehicle.",
@@ -8,20 +11,12 @@ const objectives = [
   "Compete with other teams to achieve the most accurate stopping distance.",
 ];
 
-const benefits = [
-  "Apply theoretical knowledge in a fun and competitive environment.",
-  "Encourage creativity, teamwork, and problem-solving.",
-  "Showcase skills in front of peers and industry professionals.",
-  "Gain experience relevant to a career in chemical engineering.",
-  "Push the boundaries of chemical engineering through innovation.",
-];
-
 const page = () => {
   return (
     <section className="pt-[75px] min-h-screen w-full px-4 md:px-28">
-      <div className="max-w-5xl mx-auto mt-8">
+      <div className=" mx-auto mt-4">
         <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-4 decoration-4 decoration-accent-500 underline underline-offset-8">
-          Chem-E-Car Competition
+          Chem-E-Car
         </h1>
         <p className="mt-4 text-justify font-light text-text-100 text-[14px] md:text-[18px]">
           One of the flagship events of AIChE Global is the Chem-E-Car
@@ -31,18 +26,7 @@ const page = () => {
           to precisely start and stop the car, thereby controlling its motion
           entirely through chemical processes.
         </p>
-        <h2 className="md:text-2xl text-xl mt-4 font-semibold mb-4 text-secondary-200">
-          About the Competition
-        </h2>
-        <p className="mt-4 text-justify font-light text-text-100 text-[14px] md:text-[18px]">
-          The Chem-E-Car competition is not just about building a car; it's
-          about applying chemical engineering principles in a practical,
-          hands-on project. Teams of students are required to innovate and
-          experiment with various chemical reactions to power their cars. The
-          car must be small enough to fit within the dimensions of a shoe box,
-          and it must be able to carry a specified load over a given distance,
-          stopping as close as possible to a target line.
-        </p>
+
         <h2 className="md:text-2xl text-xl mt-4 font-semibold mb-4 text-secondary-200">
           Objectives
         </h2>
@@ -53,32 +37,79 @@ const page = () => {
             </li>
           ))}
         </ul>
-        <h2 className=" font-semibold mb-4 md:text-2xl text-xl mt-4  text-secondary-200">
-          Why Participate?
+        <h2 className="md:text-2xl text-xl mt-4 font-semibold mb-4 text-secondary-200">
+          Our Chem-E-Car Teams
         </h2>
-        <p className="text-lg mb-6 font-light text-text-100">
-          Participating in the Chem-E-Car competition provides students with an
-          opportunity to apply their theoretical knowledge in a fun and
-          competitive environment. It encourages creativity, teamwork, and
-          problem-solving, all while giving participants a chance to showcase
-          their skills in front of peers and industry professionals.
-        </p>
-        <ul className="list-disc list-inside mb-6 font-light text-text-100">
-          {benefits.map((benefit, index) => (
-            <li key={index} className="mb-2">
-              {benefit}
-            </li>
-          ))}
-        </ul>
-        <h2 className="font-semibold mb-4 md:text-2xl text-xl mt-4  text-secondary-200">
-          Join the Competition!
-        </h2>
-        <p className="text-lg mb-6 font-light text-text-100">
-          Are you ready to take on the challenge and build a Chem-E-Car? Whether
-          you're a seasoned participant or new to the competition, this is your
-          chance to innovate, experiment, and push the boundaries of chemical
-          engineering.
-        </p>
+        <div className=" flex gap-4 flex-wrap">
+          <Image
+            src={chemTeam}
+            alt="Chem-E-Car Team"
+            className=" mt-4 rounded-md w-full sm:w-96 "
+          />
+          <Image
+            src={aneTeam}
+            alt="Chem-E-Car Team"
+            className=" mt-4 rounded-md w-full sm:w-96"
+          />
+          <Image
+            src={alluTeam}
+            alt="Chem-E-Car Team"
+            className=" mt-4 rounded-md w-full sm:w-96"
+          />
+        </div>
+
+        <div>
+          <h3 className="mt-8 text-justify font-semibold text-text-200 text-lg md:text-xl">
+            1. Team Anerobes
+          </h3>
+          <div className="mt-4 text-justify font-light text-text-100 text-[14px] md:text-[18px]">
+            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+              Design
+            </h4>
+            <p>{Anerobes.design}</p>
+            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+              Power Source
+            </h4>
+            <p>{Anerobes.powerSource}</p>
+            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+              Stopping Mechanism
+            </h4>
+            <p>{Anerobes.stoppingMechanism}</p>
+            <Image
+              src={Anerobes.img}
+              alt="AluMillennium"
+              width={400}
+              height={400}
+              className=" mt-4 rounded-md"
+            />
+          </div>
+        </div>
+        <div>
+          <h3 className="mt-8 text-justify font-semibold text-text-200 text-lg md:text-xl">
+            2. Team AluMillennium
+          </h3>
+          <div className="mt-4 text-justify font-light text-text-100 text-[14px] md:text-[18px]">
+            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+              Design
+            </h4>
+            <p>{AluMillennium.design}</p>
+            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+              Power Source
+            </h4>
+            <p>{AluMillennium.powerSource}</p>
+            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+              Stopping Mechanism
+            </h4>
+            <p>{AluMillennium.stoppingMechanism}</p>
+            <Image
+              src={AluMillennium.img}
+              alt="AluMillennium"
+              width={400}
+              height={400}
+              className=" mt-4 rounded-md"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -35,37 +35,34 @@ const page = async () => {
       <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-10 decoration-4  decoration-accent-500 underline underline-offset-8  ">
         Faculty Advisors
       </h1>
-      <div className="my-8 grid grid-cols-1 lg:grid-cols-4 gap-5">
+      <div className=" my-8 grid grid-cols-1 lg:grid-cols-3 gap-5">
         {faculty.map((faculty, index) => (
           <div
-            data-aos="fade-up"
-            data-aos-delay={index * 50}
+            data-aos="fade-left"
             key={faculty.position}
-            className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter backdrop-blur-lg shadow-lg p-4 rounded-xl hover:shadow-lg hover:shadow-text-500/60 sm:w-[100%] flex flex-col items-center gap-4">
+            className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl  hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
+            <div>
+              <div className="text-base sm:text-xl font-bold font-heading text-text-200 ">
+                {faculty.position}
+              </div>
+              <div className="text-[.9rem] text-accent-300 pb-2 font-semibold">
+                {faculty.name}
+              </div>
+              <Link
+                href={`${faculty.linkedin}`}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="linkedIn">
+                <FaLinkedin className="text-xl text-text-200 hover:text-accent-400" />
+              </Link>
+            </div>
             <Image
               src={faculty.ImageUrl ? faculty.ImageUrl : SVNITLOGO}
               alt="Img"
               height={100}
               width={100}
-              className="aspect-[1/1] rounded-lg"
+              className="float aspect-[1/1] rounded-lg"
             />
-            <div className="text-center">
-              <div className="text-base sm:text-xl font-bold font-heading text-text-200">
-                {faculty.position}
-              </div>
-              <div className="flex items-center justify-between  mt-2">
-                <div className="text-[.9rem] text-accent-300 font-semibold">
-                  {faculty.name}
-                </div>
-                <Link
-                  href={`${faculty.linkedin}`}
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="linkedIn">
-                  <FaLinkedin className="text-xl text-text-200 hover:text-accent-400" />
-                </Link>
-              </div>
-            </div>
           </div>
         ))}
       </div>
@@ -79,7 +76,7 @@ const page = async () => {
         {studentHeads.map((StudentHead, index) => (
           <div
             data-aos="fade-left"
-            data-aos-delay={index * 50}
+            data-aos-delay={index * 10}
             key={StudentHead.position}
             className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl  hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
             <div>
@@ -116,7 +113,7 @@ const page = async () => {
         {committees.map((committee, index) => (
           <div
             data-aos="fade-right"
-            data-aos-delay={index * 50}
+            data-aos-delay={index * 20}
             key={committee.head}
             className="bg-gradient-to-tl from-[#451452] to-[#26062d] bg-opacity-30 backdrop-filter  backdrop-blur-lg  shadow-lg p-4 rounded-xl hover:shadow-lg hover:shadow-text-500/60  sm:w-[100%] flex items-center justify-between  gap-2 ">
             <div>

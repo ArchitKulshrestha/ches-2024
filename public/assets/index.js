@@ -23,9 +23,18 @@ import eurekad from "./eurekad.jpeg";
 import eurekag from "./eurekad.jpeg";
 import eurekah from "./eurekad.jpeg";
 import eurekae from "./eurekae.jpeg";
-
+import alluCar from "./alluCar.jpg";
+import aneCar from "./aneCar.jpg";
+import chemTeam from "./chemTeam.jpg";
+import aneTeam from "./aneTeam.jpg";
+import alluTeam from "./alluTeam.jpg";
 import Eurekalogo from "./Eurekalogo.webp";
 export {
+  alluCar,
+  alluTeam,
+  chemTeam,
+  aneCar,
+  aneTeam,
   ChesNoText,
   Hero,
   Eureka,
