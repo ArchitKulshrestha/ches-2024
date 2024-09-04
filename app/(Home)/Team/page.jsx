@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-// import { Teams } from "@/constants";
+
 import Link from "next/link";
 import Image from "next/image";
 import { SVNITLOGO, teamImg } from "@/public/assets";

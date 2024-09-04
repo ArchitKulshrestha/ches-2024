@@ -4,6 +4,7 @@ import { SVNITLOGO } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosArrowRoundBack } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
 const page = () => {
   return (
     <section className="px-4 md:px-28 pt-[75px] w-full min-h-screen">
@@ -29,6 +30,13 @@ const page = () => {
               <div className="text-[.9rem] text-accent-300 pb-2 font-semibold">
                 {Batch2223.name}
               </div>
+              <Link
+                href={`${Batch2223.linkedin}`}
+                target="_blank"
+                rel="noreferrer"
+                aria-label="linkedIn">
+                <FaLinkedin className="text-xl text-text-200 hover:text-accent-400" />
+              </Link>
             </div>
             <Image
               src={Batch2223.ImageUrl ? Batch2223.ImageUrl : SVNITLOGO}
