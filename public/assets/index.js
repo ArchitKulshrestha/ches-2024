@@ -84,7 +84,9 @@ import aneCar from "./aneCar.jpg";
 import chemTeam from "./chemTeam.jpg";
 import aneTeam from "./aneTeam.jpg";
 import alluTeam from "./alluTeam.jpg";
+import aditya from "./aditya.jpg";
 export {
+  aditya,
   alluCar,
   alluTeam,
   chemTeam,

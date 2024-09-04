@@ -18,8 +18,7 @@ async function Gallery() {
             key={index}
             className="hover:scale-110 ease-in-out duration-300 relative overflow-hidden rounded-lg   cursor-pointer ">
             <Image
-              unoptimized={true}
-              // quality={100}
+              quality={90}
               height={200}
               width={200}
               className="hover:scale-110 ease-in-out duration-300 w-full aspect-[3/2] max-w-full rounded-lg object-cover object-center "

@@ -65,6 +65,7 @@ import {
   namrata,
   aneCar,
   alluCar,
+  aditya,
 } from "@/public/assets";
 
 export const NavLinks = [
@@ -106,6 +107,7 @@ export const Developers = [
     position: "Executive",
     name: "Aditya Kumar",
     Linkedin: "https://www.linkedin.com/in/adityak1911/",
+    ImageUrl: aditya,
   },
   {
     position: "Executive",
