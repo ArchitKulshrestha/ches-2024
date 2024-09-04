@@ -23,6 +23,46 @@ import {
   car_logo,
   SRClogo,
   SRC,
+  Archit,
+  Kamakshi,
+  Bhumi,
+  Yukta,
+  Technical,
+  ayushi,
+  gaurav,
+  mahendra,
+  president,
+  priyal,
+  sahil,
+  sambhavi,
+  swapnil,
+  sheetal,
+  shipra,
+  sarrah,
+  anuj,
+  ayush,
+  himanshu,
+  himil,
+  nisarg,
+  pranav,
+  ronak,
+  vrund,
+  kenny,
+  neha,
+  sajal,
+  sayantani,
+  tanay,
+  utsav,
+  aswin,
+  devsharma,
+  dheypatel,
+  dhyeybhagat,
+  kushal,
+  rupesh,
+  sarita,
+  simran,
+  soumya,
+  namrata,
   aneCar,
   alluCar,
 } from "@/public/assets";
@@ -55,40 +95,47 @@ export const NavLinks = [
   },
 ];
 
-// export const Developers = [
-//   {
-//     id: 1,
-//     name: "Archit ",
-//     Linkedin: "https://www.linkedin.com/in/archit-kulshrestha-1aa01a255/",
-//   },
-//   {
-//     id: 2,
-//     name: "Aditya ",
-//     Linkedin: "https://www.linkedin.com/in/adityak1911/",
-//   },
-
-//   {
-//     id: 3,
-//     name: "Abhay ",
-//     Linkedin: "https://www.linkedin.com/in/abhay-dubey-480a48264/",
-//   },
-//   {
-//     id: 4,
-//     name: "Abhishek",
-//     Linkedin: "https://www.linkedin.com/in/abhishek-sharma-38b97125b/",
-//   },
-//   {
-//     id: 5,
-//     name: "Shikhar ",
-//     Linkedin: "https://www.linkedin.com/in/shikhar-shukla-011062256/",
-//   },
-//   {
-//     id: 6,
-//     name: "Vivek",
-//     Linkedin:
-//       "https://www.linkedin.com/company/chemical-engineering-society-svnit/mycompany/",
-//   },
-// ];
+export const Developers = [
+  {
+    position: "Head",
+    name: "Archit Kulshrestha",
+    Linkedin: "https://www.linkedin.com/in/archit-kulshrestha-1aa01a255/",
+    ImageUrl: Archit,
+  },
+  {
+    position: "Executive",
+    name: "Aditya Kumar",
+    Linkedin: "https://www.linkedin.com/in/adityak1911/",
+  },
+  {
+    position: "Executive",
+    name: "Abhay Dubey",
+    Linkedin: "https://www.linkedin.com/in/abhay-dubey-480a48264/",
+  },
+  {
+    position: "Member",
+    name: "Kamakshi Jibhkate",
+    Linkedin: "https://www.linkedin.com/in/kamakshi-jibhkate-35671529a/",
+    ImageUrl: Kamakshi,
+  },
+  {
+    position: "Member",
+    name: "Bhumi Gupta",
+    Linkedin: "https://www.linkedin.com/in/bhumi-gupta-b13b1528a/",
+    ImageUrl: Bhumi,
+  },
+  {
+    position: "Member",
+    name: "Dattatreya Mangipudi",
+    Linkedin: "https://www.linkedin.com/in/dattatreya-mangipudi-7168762a6/",
+  },
+  {
+    position: "Member",
+    name: "Namrata Patil",
+    Linkedin: "https://www.linkedin.com/in/namrata-patil-220714282/",
+    ImageUrl: namrata,
+  },
+];
 export const AluMillennium = {
   name: "AluMillennium",
   img: alluCar,
@@ -110,3 +157,249 @@ export const Anerobes = {
   stoppingMechanism:
     "The Stopping mechanism of our car is Reaction between Sodium Thiosulfate and Hydrochloric Acid. This reaction demonstrates the formation of sodium chloride, sulfur, sulfur dioxide, and water. As the reaction Between Na2S2O3 and HCl proceeds, the formation of colloidal sulfur leads to an increase in the solution’s Turbidity. This results in a measurable decrease in the intensity of light transmitted through the mixture. Light coming from the solution Is detected and similar code is run through an Arduino which stops our circuit. Time vs Conc. Graph (Sodium Thiosulphate reacting Hydrochloric Acid) The reaction between sodium thiosulfate and hydrochloric acid is given by: 𝑁𝑎2𝑆2𝑂3 + 2𝐻𝐶𝑙 → 2𝑁𝑎𝐶𝑙 + 𝑆 + 𝑆𝑂2 + 𝐻2",
 };
+
+export const Batch2021 = [
+  {
+    position: "PRESIDENT",
+    name: "Javed Alam Saifi",
+    ImageUrl: president,
+  },
+  {
+    position: "VICE-PRESIDENT",
+    name: "Shambhavi Srivastava",
+    ImageUrl: sambhavi,
+  },
+  {
+    position: "SECRETARY(Advisor)",
+    name: "Sarrah Saify",
+    ImageUrl: sarrah,
+  },
+  {
+    position: "SECRETARY",
+    name: "Yukta Malik",
+    ImageUrl: Yukta,
+  },
+  {
+    position: "SECRETARY",
+    name: "Swapnil Bhavsar",
+    ImageUrl: swapnil,
+  },
+  {
+    position: "SECRETARY(Treasurer)",
+    name: "Gaurav Tayade",
+    ImageUrl: gaurav,
+  },
+  {
+    position: "MANAGERIAL",
+    name: "Mahendra Singh",
+    ImageUrl: mahendra,
+  },
+  {
+    position: "TECHNICALL",
+    name: "Paavan Rupapara",
+    ImageUrl: Technical,
+  },
+  {
+    position: "K12 OUTREACH(Innovation head ) ",
+    name: "Sheetal Maheshwari",
+    ImageUrl: sheetal,
+  },
+  {
+    position: "SOCIAL MEDIA",
+    name: "Shipra Novil",
+    ImageUrl: shipra,
+  },
+  {
+    position: "WEB D",
+    name: "Sahil Shahi",
+    ImageUrl: sahil,
+  },
+  {
+    position: "DOCUMENTATION",
+    name: "Aayushi Gupta",
+    ImageUrl: ayushi,
+  },
+  {
+    position: "DOCUMENTATION",
+    name: "Priyal Panda",
+    ImageUrl: priyal,
+  },
+];
+
+export const Batch2122 = [
+  {
+    position: "PRESIDENT",
+    name: "Sheetal Maheshwari",
+    ImageUrl: sheetal,
+  },
+  {
+    position: "VICE-PRESIDENT",
+    name: "Shipra Novil",
+    ImageUrl: shipra,
+  },
+  {
+    position: "SECRETARY (Student Advisor)",
+    name: "Aayushi Gupta",
+    ImageUrl: ayushi,
+  },
+  {
+    position: "SECRETARY (Committee Coordinator)",
+    name: "Ronak Asnani",
+    ImageUrl: ronak,
+  },
+  {
+    position: "SECRETARY(Treasurer)",
+    name: "Nisarg Shah",
+    ImageUrl: nisarg,
+  },
+  {
+    position: "MANAGERIAL",
+    name: "Himil Gohel",
+    ImageUrl: himil,
+  },
+  {
+    position: "TECHNICALL",
+    name: "Vrund Shah",
+    ImageUrl: vrund,
+  },
+  {
+    position: "PUBLIC RELATION",
+    name: "Ayush Biyani",
+    ImageUrl: ayush,
+  },
+  {
+    position: "SOCIAL MEDIA",
+    name: "Himanshu Gaikwad",
+    ImageUrl: himanshu,
+  },
+  {
+    position: "WEB D",
+    name: "Pranav Dherange",
+    ImageUrl: pranav,
+  },
+  {
+    position: "PUBLICITY",
+    name: "Anuj sawal",
+    ImageUrl: anuj,
+  },
+];
+
+export const Batch2223 = [
+  {
+    position: "PRESIDENT",
+    name: "Himanshu Gaikwaid",
+    ImageUrl: himanshu,
+  },
+  {
+    position: "VICE-PRESIDENT",
+    name: "Kushagra Gupta",
+  },
+  {
+    position: "SECRETARY (Treasurer)",
+    name: "Dhyey Bhagat",
+    ImageUrl: dhyeybhagat,
+  },
+  {
+    position: "MANAGERIAL",
+    name: "Prashant Paliwal",
+  },
+  {
+    position: "TECHNICAL",
+    name: "Dhyey Patel",
+    ImageUrl: dheypatel,
+  },
+  {
+    position: "K12 OUTREACH",
+    name: "Bollineni Neha",
+    ImageUrl: neha,
+  },
+  {
+    position: "PUBLIC RELATION",
+    name: "Abhyudayam Dadhich",
+  },
+  {
+    position: "DESIGN",
+    name: "Sajal Saxena",
+    ImageUrl: sajal,
+  },
+  {
+    position: "DESIGN",
+    name: "Tanay Damania",
+    ImageUrl: tanay,
+  },
+  {
+    position: "SOCIAL MEDIA",
+    name: "Sayantani Dutta",
+    ImageUrl: sayantani,
+  },
+  {
+    position: "PUBLICITY",
+    name: "Utsav Singh",
+    ImageUrl: utsav,
+  },
+  {
+    position: "DOCUMENTATION",
+    name: "Kenny Kachhadiya",
+    ImageUrl: kenny,
+  },
+];
+
+export const Batch2324 = [
+  {
+    position: "PRESIDENT",
+    name: "Dhyey  Bhagat",
+    ImageUrl: dhyeybhagat,
+  },
+  {
+    position: "VICE-PRESIDENT",
+    name: "Dhyey Patel",
+    ImageUrl: dheypatel,
+  },
+  {
+    position: "MANAGERIAL",
+    name: "Aswin Nair",
+    ImageUrl: aswin,
+  },
+  {
+    position: "TECHNICAL",
+    name: "Dev Sharma",
+    ImageUrl: devsharma,
+  },
+  {
+    position: "K12 OUTREACH",
+    name: "Rupesh Yadav",
+    ImageUrl: rupesh,
+  },
+  {
+    position: "PUBLIC RELATION",
+    name: "Saumya Jain",
+    ImageUrl: soumya,
+  },
+  {
+    position: "DESIGN",
+    name: "Ranjana Soni",
+  },
+  {
+    position: "SOCIAL MEDIA",
+    name: "Simran Hirekhan",
+    ImageUrl: simran,
+  },
+  {
+    position: "FINANCE",
+    name: "Kushal Doshi",
+    ImageUrl: kushal,
+  },
+  {
+    position: "FINANCE",
+    name: "Om Pandey",
+  },
+  {
+    position: "EDITORIAL",
+    name: "Nitin Vaishnav",
+  },
+  {
+    position: "DOCUMENTATION",
+    name: "Sarita Meena",
+    ImageUrl: sarita,
+  },
+];
