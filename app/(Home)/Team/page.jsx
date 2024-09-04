@@ -13,7 +13,7 @@ import {
   getFaculty,
 } from "@/sanity/utilsSanity";
 const buttonReg = {
-  href: "https://drive.google.com/file/d/1gDyxfguBfHto_UCzkxHc2SLVenRvoTA7/view?usp=sharing",
+  href: "https://drive.google.com/file/d/1YGMMP4EdTCxS4Xrcg1cWX0EV2iM5C3MD/view?usp=sharing",
   text: "Full Committee List",
 };
 

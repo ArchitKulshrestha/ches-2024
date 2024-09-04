@@ -73,7 +73,9 @@ import aneTeam from "./aneTeam.jpg";
 import alluTeam from "./alluTeam.jpg";
 import aditya from "./aditya.jpg";
 import abhay from "./abhay.jpg";
+import abhishek from "./abhishek.jpg";
 export {
+  abhishek,
   abhay,
   aditya,
   alluCar,
