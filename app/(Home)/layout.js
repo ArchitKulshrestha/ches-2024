@@ -12,10 +12,10 @@ export const metadata = {
     "Discover the Chemical Engineering Society at SVNIT Surat (ChES). Stay updated on events, cutting-edge research, and networking opportunities for chemical engineering students.",
   openGraph: {
     type: "website",
-    url: "https://ches.vercel.app",
+    url: "https://ches-svnit.com/",
     title: "Chemical Engineering Society | SVNIT Surat | ChES",
     description:
-      "Explore upcoming events, innovative research projects, and valuable resources provided by the Chemical Engineering Society (ChES) at SVNIT Surat.",
+      "Explore upcoming events, innovative  projects, and valuable resources provided by the Chemical Engineering Society (ChES) at SVNIT Surat.",
   },
   keywords: [
     "ChES SVNIT Surat",
@@ -37,7 +37,7 @@ export const metadata = {
     icon: "/favicon.ico",
   },
   alternates: {
-    canonical: "https://ches-2024.vercel.app/",
+    canonical: "https://ches-svnit.com/",
   },
 };
 

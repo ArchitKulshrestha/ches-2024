@@ -22,21 +22,19 @@ const Batch = [
 
 const Dropdown = () => {
   return (
-    <Menu color="white">
+    <Menu>
       <MenuHandler>
-        <Button className="py-2 px-4 bg-accent-600 hover:bg-accent-500 text-white text-base font-semibold rounded-lg shadow-lg transition-all duration-300 ease-in-out">
+        <Button className="py-2 px-4 bg-accent-600 hover:bg-accent-500 text-white text-base font-semibold rounded-lg shadow-lg transition-all duration-300 ease-in-out focus:outline-none focus:ring-0">
           Our Alumni
         </Button>
       </MenuHandler>
-      <MenuList className="bg-background-100 border border-background-100 shadow-md rounded-md">
+      <MenuList className="bg-background-100 border border-background-100 shadow-md rounded-md ">
         {Batch.map((batch, index) => (
-          <MenuItem
-            key={index}
-            className="hover:bg-background-100 px-2 py-1 text-text-800 font-semibold text-base transition-all duration-200 ease-in-out">
-            <Link href={batch.link} target="_blank">
+          <Link href={batch.link} target="_blank" key={index}>
+            <MenuItem className="hover:bg-background-200 px-2 py-1 text-text-800 font-semibold text-base transition-all duration-200 ease-in-out ">
               {batch.batch}
-            </Link>
-          </MenuItem>
+            </MenuItem>
+          </Link>
         ))}
       </MenuList>
     </Menu>
