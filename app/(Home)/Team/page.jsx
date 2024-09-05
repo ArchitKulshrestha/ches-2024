@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 import Link from "next/link";
 import Image from "next/image";
-import { SVNITLOGO, teamImg } from "@/public/assets";
+import { placeholder, teamImg } from "@/public/assets";
 import Dropdown from "@/components/Dropdown";
 
 import { Developers } from "@/constants/index";
@@ -62,7 +62,7 @@ const page = async () => {
               </Link>
             </div>
             <Image
-              src={faculty.ImageUrl ? faculty.ImageUrl : SVNITLOGO}
+              src={faculty.ImageUrl ? faculty.ImageUrl : placeholder}
               alt="Img"
               height={100}
               width={100}
@@ -98,7 +98,7 @@ const page = async () => {
               </Link>
             </div>
             <Image
-              src={StudentHead.ImageUrl ? StudentHead.ImageUrl : SVNITLOGO}
+              src={StudentHead.ImageUrl ? StudentHead.ImageUrl : placeholder}
               alt="Img"
               height={100}
               width={100}
@@ -134,7 +134,7 @@ const page = async () => {
               </Link>
             </div>
             <Image
-              src={committee.ImageUrl ? committee.ImageUrl : SVNITLOGO}
+              src={committee.ImageUrl ? committee.ImageUrl : placeholder}
               alt="Img"
               height={100}
               width={100}
@@ -175,7 +175,7 @@ const page = async () => {
               </Link>
             </div>
             <Image
-              src={Developers.ImageUrl ? Developers.ImageUrl : SVNITLOGO}
+              src={Developers.ImageUrl ? Developers.ImageUrl : placeholder}
               alt="Img"
               height={100}
               width={100}

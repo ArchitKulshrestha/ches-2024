@@ -74,7 +74,9 @@ import alluTeam from "./alluTeam.jpg";
 import aditya from "./aditya.jpg";
 import abhay from "./abhay.jpg";
 import abhishek from "./abhishek.jpg";
+import placeholder from "./placeholder.png";
 export {
+  placeholder,
   abhishek,
   abhay,
   aditya,

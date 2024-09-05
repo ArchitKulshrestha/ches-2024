@@ -1,6 +1,6 @@
 import React from "react";
 import { Batch2021, Batch2122 } from "@/constants";
-import { SVNITLOGO } from "@/public/assets";
+import { placeholder } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosArrowRoundBack } from "react-icons/io";
@@ -40,7 +40,7 @@ const page = () => {
               </Link>
             </div>
             <Image
-              src={Batch2021.ImageUrl ? Batch2021.ImageUrl : SVNITLOGO}
+              src={Batch2021.ImageUrl ? Batch2021.ImageUrl : placeholder}
               alt="Img"
               height={100}
               width={100}

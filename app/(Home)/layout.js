@@ -33,9 +33,10 @@ export const metadata = {
     "ChES",
     "SVNIT Research",
   ],
-  icons: {
-    icon: "/favicon.ico",
-  },
+  // icons: {
+  //   icon: "/favicon.ico",
+  //   appleTouchIcon: "/apple-touch-icon.png",
+  // },
   alternates: {
     canonical: "https://ches-svnit.com/",
   },
