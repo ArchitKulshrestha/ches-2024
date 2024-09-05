@@ -170,6 +170,200 @@ export const Anerobes = {
     "The Stopping mechanism of our car is Reaction between Sodium Thiosulfate and Hydrochloric Acid. This reaction demonstrates the formation of sodium chloride, sulfur, sulfur dioxide, and water. As the reaction Between Na2S2O3 and HCl proceeds, the formation of colloidal sulfur leads to an increase in the solution’s Turbidity. This results in a measurable decrease in the intensity of light transmitted through the mixture. Light coming from the solution Is detected and similar code is run through an Arduino which stops our circuit. Time vs Conc. Graph (Sodium Thiosulphate reacting Hydrochloric Acid) The reaction between sodium thiosulfate and hydrochloric acid is given by: 𝑁𝑎2𝑆2𝑂3 + 2𝐻𝐶𝑙 → 2𝑁𝑎𝐶𝑙 + 𝑆 + 𝑆𝑂2 + 𝐻2",
 };
 
+export const Batch1920 = [
+  {
+    position: "President",
+    name: "Chaitanya Bhimrajka",
+    // ImageUrl: chaitanya,
+    linkedin: "https://www.linkedin.com/in/chaitanya-bhimrajka-61644974",
+  },
+  {
+    position: "Vice President",
+    name: "Abhay Dubey",
+    // ImageUrl: abhay,
+    linkedin: "https://www.linkedin.com/in/abhay-dubey-4626bb145/",
+  },
+  {
+    position: "Managerial",
+    name: "Tarang Desai",
+    // ImageUrl: tarang,
+    linkedin: "",
+  },
+  {
+    position: "Technical Secretary",
+    name: "Swapnil Bhavsar",
+    // ImageUrl: swapnil,
+    linkedin: "https://www.linkedin.com/in/swapnil-bhavsar",
+  },
+  {
+    position: "Documentation",
+    name: "Sambhavi Shrivastav",
+    // ImageUrl: sambhavi,
+    linkedin: "",
+  },
+];
+
+export const Batch1819 = [
+  {
+    position: "President",
+    name: "Khirabdhi Mohanty",
+    // ImageUrl: khirabdhi,
+    linkedin:
+      "https://www.linkedin.com/in/khirabdhi-tannaya-mohanty-00402b169/",
+  },
+  {
+    position: "Vice President",
+    name: "Alisha Chakraborty",
+    // ImageUrl: alisha,
+    linkedin: "https://www.linkedin.com/in/alisachakraborty/",
+  },
+  {
+    position: "Treasurer",
+    name: "Chaitanya Bhimrajka",
+    // ImageUrl: chaitanya,
+    linkedin: "https://www.linkedin.com/in/chaitanya-bhimrajka-61644974",
+  },
+  {
+    position: "Managerial Secretary",
+    name: "Abhay Dubey",
+    // ImageUrl: abhay,
+    linkedin: "",
+  },
+  {
+    position: "Technical Secretary",
+    name: "Siraj Deraiya",
+    // ImageUrl: siraj,
+    linkedin: "",
+  },
+];
+
+export const Batch1718 = [
+  {
+    position: "President",
+    name: "Akshat Ghiya",
+    // ImageUrl: akshat,
+    linkedin: "https://www.linkedin.com/in/akshat-ghiya",
+  },
+  {
+    position: "Vice President",
+    name: "Ravindra Shah Singh",
+    // ImageUrl: ravindra,
+    linkedin: "https://www.linkedin.com/in/ravindershahsingh/",
+  },
+  {
+    position: "Treasurer",
+    name: "Khirabdhi Mohanty",
+    // ImageUrl: khirabdhi,
+    linkedin:
+      "https://www.linkedin.com/in/khirabdhi-tannaya-mohanty-00402b169/",
+  },
+  {
+    position: "Secretary",
+    name: "Manish Mazumder",
+    // ImageUrl: manish,
+    linkedin: "https://www.linkedin.com/in/manishamazumdar25",
+  },
+  {
+    position: "Technical Secretary",
+    name: "Kalpesh Sondarva",
+    // ImageUrl: kalpesh,
+    linkedin: "https://www.linkedin.com/in/sondarva-kalpesh-38282b117",
+  },
+  {
+    position: "Social Media Secretary",
+    name: "Aishwarya Menon",
+    // ImageUrl: aishwarya,
+    linkedin: "https://www.linkedin.com/in/aiswarya-menon-866486154",
+  },
+];
+
+export const Batch1617 = [
+  {
+    position: "President",
+    name: "Pranali Dandekar",
+    // ImageUrl: pranali,
+    linkedin: "https://www.linkedin.com/in/pranali-dandekar-08b686105",
+  },
+  {
+    position: "Secretary",
+    name: "Bhuvan Shah",
+    // ImageUrl: bhuvan,
+    linkedin: "https://www.linkedin.com/in/pranali-dandekar-08b686105",
+  },
+  {
+    position: "Treasurer",
+    name: "Akshat Ghiya",
+    // ImageUrl: akshat,
+    linkedin: "https://www.linkedin.com/in/akshat-ghiya",
+  },
+  {
+    position: "Managerial Secretary",
+    name: "Salonee Goud",
+    // ImageUrl: salonee,
+    linkedin: "https://www.linkedin.com/in/salonee-goud",
+  },
+  {
+    position: "Technical Secretary",
+    name: "Jugal Dave",
+    // ImageUrl: jugal,
+    linkedin: "https://www.linkedin.com/in/jugal-dave-63b338b7",
+  },
+];
+
+export const Batch1516 = [
+  {
+    position: "President",
+    name: "Suraj Singh Dixit",
+    // ImageUrl: suraj,
+    linkedin: "https://www.linkedin.com/in/suraj-singh-dixit-71bab09a",
+  },
+  {
+    position: "Vice President",
+    name: "Harsh Nath",
+    // ImageUrl: harsh,
+    linkedin: "https://www.linkedin.com/in/harshnath",
+  },
+  {
+    position: "Treasurer",
+    name: "Rishabh Sambaria",
+    // ImageUrl: rishabh,
+    linkedin: "/Team/Batch1516",
+  },
+  {
+    position: "Secretary",
+    name: "Kaveri Sharma",
+    // ImageUrl: kaveri,
+    linkedin: "https://www.linkedin.com/in/kaveri-sharma-950148b6",
+  },
+  {
+    position: "Secretary",
+    name: "Dhananjay Joshi",
+    // ImageUrl: dhananjay,
+    linkedin: "https://www.linkedin.com/in/dhananjay-joshi/",
+  },
+];
+
+export const Batch1415 = [
+  {
+    position: "Founder",
+    name: "Kunal Singh",
+    // ImageUrl: kunal,
+    linkedin: "https://www.linkedin.com/in/kunal-singh-ai ",
+  },
+  {
+    position: "Co-Founder",
+    name: "Sapan Gandhi",
+    // ImageUrl: sapan,
+    linkedin: "https://www.linkedin.com/in/sapan-gandhi ",
+  },
+  {
+    position: "Co-Founder",
+    name: "Surabhi Prasad",
+    // ImageUrl: surabhi,
+    linkedin: "https://www.linkedin.com/in/surbhi-prasad ",
+  },
+];
+
 export const Batch2021 = [
   {
     position: "PRESIDENT",

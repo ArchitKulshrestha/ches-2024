@@ -18,6 +18,30 @@ const Batch = [
     batch: "2020-21",
     link: "/Team/Batch2021",
   },
+  {
+    batch: "2019-20",
+    link: "/Team/Batch1920",
+  },
+  {
+    batch: "2018-19",
+    link: "/Team/Batch1819",
+  },
+  {
+    batch: "2017-18",
+    link: "/Team/Batch1718",
+  },
+  {
+    batch: "2016-17",
+    link: "/Team/Batch1617",
+  },
+  {
+    batch: "2015-16",
+    link: "/Team/Batch1516",
+  },
+  {
+    batch: "2014-15",
+    link: "/Team/Batch1415",
+  },
 ];
 
 const Dropdown = () => {
