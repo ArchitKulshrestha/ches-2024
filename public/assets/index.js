@@ -75,7 +75,11 @@ import aditya from "./aditya.jpg";
 import abhay from "./abhay.jpg";
 import abhishek from "./abhishek.jpg";
 import placeholder from "./placeholder.png";
+import shikhar from "./shikhar.jpg";
+import vivek from "./viva.jpg";
 export {
+  vivek,
+  shikhar,
   placeholder,
   abhishek,
   abhay,

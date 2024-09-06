@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import AosWrapper from "@/components/AosWrapper";
 import { Poppins, Commissioner } from "next/font/google";
 import { ChesLogo } from "@/public/assets";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: "Chemical Engineering Society | SVNIT Surat | ChES",
@@ -33,10 +34,10 @@ export const metadata = {
     "ChES",
     "SVNIT Research",
   ],
-  // icons: {
-  //   icon: "/favicon.ico",
-  //   appleTouchIcon: "/apple-touch-icon.png",
-  // },
+  icons: {
+    icon: "/favicon.ico",
+    appleTouchIcon: "/apple-touch-icon.png",
+  },
   alternates: {
     canonical: "https://ches-svnit.com/",
   },
@@ -66,6 +67,7 @@ export default function RootLayout({ children }) {
           <main className="relative overflow-hidden ">{children}</main>
           <Footer />
         </body>
+        <GoogleAnalytics gaId="G-0MMP5872EW" />
       </AosWrapper>
     </html>
   );

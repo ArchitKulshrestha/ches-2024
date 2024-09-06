@@ -68,6 +68,8 @@ import {
   aditya,
   abhay,
   abhishek,
+  shikhar,
+  vivek,
 } from "@/public/assets";
 
 export const NavLinks = [
@@ -116,6 +118,18 @@ export const Developers = [
     name: "Aditya Kumar",
     Linkedin: "https://www.linkedin.com/in/adityak1911/",
     ImageUrl: aditya,
+  },
+  {
+    position: "Executive",
+    name: "Shikhar Shukla",
+    Linkedin: "https://www.linkedin.com/in/shikhar-shukla-011062256/",
+    ImageUrl: shikhar,
+  },
+  {
+    position: "Executive",
+    name: "Vivek Prasad",
+    Linkedin: "https://www.linkedin.com/in/vivek-prasad-che/",
+    ImageUrl: vivek,
   },
   {
     position: "Executive",
