@@ -43,7 +43,7 @@ export const metadata = {
   },
 };
 
-export const revalidate = 180;
+export const revalidate = 1000;
 export const dynamic = "force-dynamic";
 const poppins = Poppins({
   subsets: ["latin"],

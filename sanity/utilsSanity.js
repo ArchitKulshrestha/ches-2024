@@ -1,6 +1,6 @@
 import { createClient, groq } from "next-sanity";
 
-export const revalidate = 180;
+export const revalidate = 1000;
 export const dynamic = "force-dynamic";
 
 const client = createClient({

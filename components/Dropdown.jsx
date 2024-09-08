@@ -54,7 +54,7 @@ const Dropdown = () => {
       </MenuHandler>
       <MenuList className="bg-background-100 border border-background-100 shadow-md rounded-md ">
         {Batch.map((batch, index) => (
-          <Link href={batch.link} target="_blank" key={index}>
+          <Link href={batch.link} key={index}>
             <MenuItem className="hover:bg-background-200 px-2 py-1 text-text-800 font-semibold text-base transition-all duration-200 ease-in-out ">
               {batch.batch}
             </MenuItem>

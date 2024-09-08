@@ -77,9 +77,30 @@ import abhishek from "./abhishek.jpg";
 import placeholder from "./placeholder.png";
 import shikhar from "./shikhar.jpg";
 import vivek from "./viva.jpg";
+import kunal from "./KunalSingh1415.jpg";
+import sapan from "./SapanGandhi1415.jpg";
+import abhaydubey from "./abhaydubey1920.jpg";
+import bhuvan from "./BhuvanShah1617.jpg";
+import chaitnya from "./ChaitnyaBhimrajka1920.jpg";
+import harshnath from "./HarshNath1516.jpg";
+import manisha from "./ManishaMazumdar1718.jpg";
+import pranali from "./Pranalidandekar1617.jpg";
+import pruthvi from "./PruthviShah1920.jpg";
+import ravindra from "./RavindraShahsingh1718.jpg";
+import surajsingh from "./SurajSinghDixit1516.jpg";
+import khirabdhi from "./KHIRABDHI1819.png";
+import alisha from "./alisha1819.png";
+import akshat from "./akshat1718.png";
+import sondarva from "./sondarva1718.png";
+import aishwarya from "./aishwarya1718.png";
+import jugal from "./jugaldave1617.png";
+import salonee from "./salonee1617.png";
+import surbhi from "./surbhi1415.png";
+import dhananjay from "./dhananjay1516.png";
+import kaveri from "./kaveri1516.png";
 export {
   vivek,
-  shikhar,
+  shikhar, 
   placeholder,
   abhishek,
   abhay,
@@ -152,4 +173,25 @@ export {
   sarita,
   simran,
   soumya,
+  kunal,
+  sapan,
+  abhaydubey,
+  bhuvan,
+  chaitnya,
+  harshnath,
+  manisha,
+  pranali,
+  pruthvi,
+  ravindra,
+  surajsingh,
+  khirabdhi,
+  alisha,
+  akshat,
+  sondarva,
+  aishwarya,
+  jugal,
+  salonee,
+  surbhi,
+  dhananjay,
+  kaveri,
 };

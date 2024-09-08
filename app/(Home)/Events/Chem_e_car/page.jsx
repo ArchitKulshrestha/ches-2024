@@ -42,16 +42,22 @@ const page = () => {
         </h2>
         <div className=" flex gap-4 flex-wrap">
           <Image
+            loading="lazy"
+            placeholder="blur"
             src={chemTeam}
             alt="Chem-E-Car Team"
             className=" mt-4 rounded-md w-full sm:w-96 "
           />
           <Image
+            loading="lazy"
+            placeholder="blur"
             src={aneTeam}
             alt="Chem-E-Car Team"
             className=" mt-4 rounded-md w-full sm:w-96"
           />
           <Image
+            loading="lazy"
+            placeholder="blur"
             src={alluTeam}
             alt="Chem-E-Car Team"
             className=" mt-4 rounded-md w-full sm:w-96"
@@ -59,8 +65,8 @@ const page = () => {
         </div>
 
         <div>
-          <h3 className="mt-8 text-justify font-semibold text-text-200 text-lg md:text-xl">
-            1. Team Anerobes
+          <h3 className="mt-8 text-justify font-semibold text-text-200 text-lg md:text-xl decoration-4 decoration-accent-500 underline underline-offset-8">
+            Team Anerobes
           </h3>
           <div className="mt-4 text-justify font-light text-text-100 text-[14px] md:text-[18px]">
             <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
@@ -77,6 +83,8 @@ const page = () => {
             <p>{Anerobes.stoppingMechanism}</p>
             <Image
               src={Anerobes.img}
+              loading="lazy"
+              placeholder="blur"
               alt="AluMillennium"
               width={400}
               height={400}
@@ -85,8 +93,8 @@ const page = () => {
           </div>
         </div>
         <div>
-          <h3 className="mt-8 text-justify font-semibold text-text-200 text-lg md:text-xl">
-            2. Team AluMillennium
+          <h3 className="mt-8 text-justify font-semibold text-text-200 text-lg md:text-xl decoration-4 decoration-accent-500 underline underline-offset-8">
+            Team AluMillennium
           </h3>
           <div className="mt-4 text-justify font-light text-text-100 text-[14px] md:text-[18px]">
             <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
@@ -103,6 +111,8 @@ const page = () => {
             <p>{AluMillennium.stoppingMechanism}</p>
             <Image
               src={AluMillennium.img}
+              loading="lazy"
+              placeholder="blur"
               alt="AluMillennium"
               width={400}
               height={400}
