@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Link from "next/link";
+import { getPortal } from "@/sanity/utilsSanity";
+
 const participationBenefits = [
   "Explore cutting-edge research in chemical engineering.",
   "Collaborate with like-minded peers and faculty members.",
@@ -15,6 +17,9 @@ const eventHighlights = [
   "Collaborative projects and team challenges.",
   "Mentorship opportunities with seasoned researchers.",
 ];
+const portal = await getPortal();
+const title = portal[0].title;
+const link = portal[0].link;
 
 const page = () => {
   return (
@@ -77,11 +82,11 @@ const page = () => {
 
         <div className="mb-8">
           <Link
-            href="https://forms.gle/v4BYTYfJDKvPm6mA9"
+            href={link}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-6 py-3 bg-accent-600 text-white font-semibold text-lg rounded-lg hover:bg-secondary-600">
-            Register Now
+            {title}
           </Link>
         </div>
       </div>

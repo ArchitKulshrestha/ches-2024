@@ -123,3 +123,15 @@ export async function getFaculty() {
     cache: "no-cache",
   });
 }
+const PortalQuery = groq`
+*[_type == "portal"]{
+  title,
+  link
+}
+`;
+
+export async function getPortal() {
+  return client.fetch(PortalQuery, {
+    cache: "no-cache",
+  });
+}
