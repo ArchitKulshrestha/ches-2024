@@ -169,9 +169,8 @@ function Eureka3() {
     <>
       <section className="pt-[75px] min-h-screen w-full px-4 md:px-28">
         <h1 className="md:text-3xl text-2xl font-bold font-heading text-secondary-200 mt-4">
-          Eureka 2.0 Archives
+          Eureka 3.0 Archives
         </h1>
-
         <div className="flex flex-col justify-center items-center mt-8 ">
           {eurekaC.map((eurekaC, index) => (
             <div
