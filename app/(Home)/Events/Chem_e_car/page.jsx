@@ -69,18 +69,18 @@ const page = () => {
             Team Anerobes
           </h3>
           <div className="mt-4 text-justify font-light text-text-100 text-[14px] md:text-[18px]">
-            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+            {/* <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
               Design
-            </h4>
+            </h4> */}
             <p>{Anerobes.design}</p>
-            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+            {/* <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
               Power Source
             </h4>
             <p>{Anerobes.powerSource}</p>
             <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
               Stopping Mechanism
             </h4>
-            <p>{Anerobes.stoppingMechanism}</p>
+            <p>{Anerobes.stoppingMechanism}</p> */}
             <Image
               src={Anerobes.img}
               loading="lazy"
@@ -97,18 +97,18 @@ const page = () => {
             Team AluMillennium
           </h3>
           <div className="mt-4 text-justify font-light text-text-100 text-[14px] md:text-[18px]">
-            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+            {/* <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
               Design
-            </h4>
+            </h4> */}
             <p>{AluMillennium.design}</p>
-            <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
+            {/* <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
               Power Source
             </h4>
             <p>{AluMillennium.powerSource}</p>
             <h4 className="text-lg md:text-xl mt-4 font-semibold mb-2 text-secondary-200">
               Stopping Mechanism
             </h4>
-            <p>{AluMillennium.stoppingMechanism}</p>
+            <p>{AluMillennium.stoppingMechanism}</p> */}
             <Image
               src={AluMillennium.img}
               loading="lazy"
@@ -119,6 +119,11 @@ const page = () => {
               className=" mt-4 rounded-md"
             />
           </div>
+        </div>
+        <div>
+          <h2 className="md:text-2xl text-xl mt-4 font-semibold mb-4 text-secondary-200">
+            Our Sponsors
+          </h2>
         </div>
       </div>
     </section>

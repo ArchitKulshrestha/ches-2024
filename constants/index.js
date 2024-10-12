@@ -171,11 +171,7 @@ export const Developers = [
     Linkedin: "https://www.linkedin.com/in/bhumi-gupta-b13b1528a/",
     ImageUrl: Bhumi,
   },
-  {
-    position: "Member",
-    name: "Dattatreya Mangipudi",
-    Linkedin: "https://www.linkedin.com/in/dattatreya-mangipudi-7168762a6/",
-  },
+
   {
     position: "Member",
     name: "Namrata Patil",

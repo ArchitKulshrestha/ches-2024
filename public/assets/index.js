@@ -20,7 +20,7 @@ import eurekad from "./eurekad.jpeg";
 import eurekag from "./eurekad.jpeg";
 import eurekah from "./eurekad.jpeg";
 import eurekae from "./eurekae.jpeg";
-
+import EurekaHome from "./Home-image.webp";
 import SIPHONlogo from "./SIPHONlogo.webp";
 
 import car_logo from "./car_logo.webp";
@@ -99,8 +99,9 @@ import surbhi from "./surbhi1415.png";
 import dhananjay from "./dhananjay1516.png";
 import kaveri from "./kaveri1516.png";
 export {
+  EurekaHome,
   vivek,
-  shikhar, 
+  shikhar,
   placeholder,
   abhishek,
   abhay,
