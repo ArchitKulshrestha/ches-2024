@@ -44,7 +44,8 @@ const page = () => {
               alt="Img"
               height={100}
               width={100}
-              className="float aspect-[1/1] rounded-lg"
+              className="float aspect-[1/1] rounded-full
+              "
             />
           </div>
         ))}

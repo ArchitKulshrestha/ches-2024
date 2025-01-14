@@ -102,7 +102,7 @@ function Footer() {
         <div className="flex-grow border-2 border-t border-accent-400"></div>
         <span className="flex-shrink mx-4 text-sm text-text-400">
           {" "}
-          © {year} AIChE ChES SVNIT. All rights reserved
+          {year} AIChE ChES SVNIT
         </span>
         <div className="flex-grow border-2 border-t border-accent-400"></div>
       </div>

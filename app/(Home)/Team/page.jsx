@@ -66,7 +66,7 @@ const page = async () => {
               alt="Img"
               height={100}
               width={100}
-              className="float aspect-[1/1] rounded-lg"
+              className="float aspect-[1/1] rounded-full"
             />
           </div>
         ))}
@@ -102,7 +102,7 @@ const page = async () => {
               alt="Img"
               height={100}
               width={100}
-              className="float aspect-[1/1] rounded-lg"
+              className="float aspect-[1/1] rounded-full"
             />
           </div>
         ))}
@@ -138,7 +138,7 @@ const page = async () => {
               alt="Img"
               height={100}
               width={100}
-              className=" rounded-lg  aspect-[1/1] object-fill "
+              className=" rounded-full  aspect-[1/1] object-fill "
             />
           </div>
         ))}
@@ -179,7 +179,7 @@ const page = async () => {
               alt="Img"
               height={100}
               width={100}
-              className="float aspect-[1/1] rounded-lg"
+              className="float aspect-[1/1] rounded-full"
             />
           </div>
         ))}
