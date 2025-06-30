@@ -20,7 +20,7 @@ export const Notifications = async () => {
                   width={500}
                   height={50}
                   alt="notification-icon"
-                  className="mr-4 rounded-md sm:w-[35rem] w-[25rem] "
+                  className="mr-4 rounded-md sm:w-[25rem] w-[15rem] "
                 />
               </Link>
             </div>

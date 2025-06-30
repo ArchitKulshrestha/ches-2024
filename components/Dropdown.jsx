@@ -3,6 +3,10 @@ import Link from "next/link";
 
 const Batch = [
   {
+    batch: "2024-25",
+    link: "/Team/Batch2425",
+  },
+  {
     batch: "2023-24",
     link: "/Team/Batch2324",
   },

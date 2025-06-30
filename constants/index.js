@@ -701,3 +701,75 @@ export const Batch2324 = [
     linkedin: "https://www.linkedin.com/in/sarita-meena-6b1bba227",
   },
 ];
+
+export const Batch2425 = [
+  {
+    position: "PRESIDENT",
+    name: "Dev Sharma",
+    ImageUrl: dhyeybhagat,
+    linkedin: "https://www.linkedin.com/in/dhyey-bhagat-a36599215",
+  },
+  {
+    position: "VICE-PRESIDENT",
+    name: "Aswin Nair",
+    ImageUrl: dheypatel,
+    linkedin: "/Team/Batch2324",
+  },
+  {
+    position: "MANAGERIAL",
+    name: "Aswin Nair",
+    ImageUrl: aswin,
+    linkedin: "https://www.linkedin.com/in/aswin-nair-750b22222",
+  },
+  {
+    position: "TECHNICAL",
+    name: "Dev Sharma",
+    ImageUrl: devsharma,
+    linkedin: "https://www.linkedin.com/in/dev-sharma-4b8b52150",
+  },
+  {
+    position: "K12 OUTREACH",
+    name: "Rupesh Yadav",
+    ImageUrl: rupesh,
+    linkedin: "https://www.linkedin.com/in/rupesh-yadav-3440ba22a/",
+  },
+  {
+    position: "PUBLIC RELATION",
+    name: "Saumya Jain",
+    ImageUrl: soumya,
+    linkedin: "https://www.linkedin.com/in/saumya-jain-183-/",
+  },
+  {
+    position: "DESIGN",
+    name: "Ranjana Soni",
+    linkedin: "https://www.linkedin.com/in/ranjana-soni-92b53821b/",
+  },
+  {
+    position: "SOCIAL MEDIA",
+    name: "Simran Hirekhan",
+    ImageUrl: simran,
+    linkedin: "https://www.linkedin.com/in/simran-hirekhan-300532254/",
+  },
+  {
+    position: "FINANCE",
+    name: "Kushal Doshi",
+    ImageUrl: kushal,
+    linkedin: "https://www.linkedin.com/in/kushal-doshi-033569241/",
+  },
+  {
+    position: "FINANCE",
+    name: "Om Pandey",
+    linkedin: "https://www.linkedin.com/in/om-pandey21/",
+  },
+  {
+    position: "EDITORIAL",
+    name: "Nitin Vaishnav",
+    linkedin: "https://www.linkedin.com/in/nitin-vaishnav-521a79251/",
+  },
+  {
+    position: "DOCUMENTATION",
+    name: "Sarita Meena",
+    ImageUrl: sarita,
+    linkedin: "https://www.linkedin.com/in/sarita-meena-6b1bba227",
+  },
+];
