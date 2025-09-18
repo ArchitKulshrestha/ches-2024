@@ -2,6 +2,7 @@ import { getNotifications } from "@/sanity/utilsSanity";
 import Image from "next/image";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
+
 export const Notifications = async () => {
   const notifications = await getNotifications();
 
@@ -14,7 +15,10 @@ export const Notifications = async () => {
         <Marquee speed={70}>
           {notifications.map((notification, index) => (
             <div key={index} className="flex items-center justify-center">
-              <Link target="_blank" href={notification.link}>
+              {/* --- MODIFIED LINE --- */}
+              <Link
+                target={notification.link ? "_blank" : "_self"} // Optional: avoids opening internal link in new tab
+                href={notification.link ?? "/"}>
                 <Image
                   src={notification.ImageUrl}
                   width={500}
